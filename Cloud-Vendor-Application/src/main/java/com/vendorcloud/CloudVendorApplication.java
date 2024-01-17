@@ -9,5 +9,4 @@ public class CloudVendorApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CloudVendorApplication.class, args);
 	}
-
 }
