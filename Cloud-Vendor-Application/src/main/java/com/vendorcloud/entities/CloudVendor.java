@@ -1,6 +1,14 @@
 package com.vendorcloud.entities;
 
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="cloud_vendor_info") //if you want to change the name of table use @Table annotation
 public class CloudVendor {
+    @Id
     private String vendorId;
     private String vendorName;
     private String vendorAddress;
